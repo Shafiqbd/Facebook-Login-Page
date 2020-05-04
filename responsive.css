@@ -1,0 +1,77 @@
+@media screen and (max-width:1024px){
+    .left_area{
+        width: 60%;
+    }
+    .left_area img{
+        width: 100%;
+    }
+    .right_area{
+        width: 40%;
+    }
+    .right_area h1{
+        font-size: 32px;
+    }
+    .footer_area, .top_footer ul li a{
+        margin-right: 6px;
+    }
+}
+
+@media screen and (max-width:980px){
+    .logo_area{
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .login_area{
+        float: none;
+        width:460px;
+        margin: 10px auto;
+    }
+    .left_area{
+        width: 100%;
+        float: none;
+         text-align: center;
+    }
+    .right_area{
+        width: 100%;
+        float: none;
+        
+    }
+     .right_area h1, h4{
+         text-align: center;
+    }
+    .left_area p{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:768px){
+    .login_area .email, .login_area .password, .login_area .login{
+        float: left;
+        width: 100%;
+        margin-right: 0px;
+    }
+    .login_area input{
+        width: 100%;
+        box-sizing: border-box;
+    }
+     .login button{
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width:480px){
+    .login_area{
+        width: 100%;
+    }
+    .container{
+        width: 80%;
+    }
+    .left_area img{
+        width: 100%;
+    }
+    .footer_area, .top_footer ul li a{
+        margin-right: 15px;
+    }
+     .footer_area, .mid_footer ul li a{
+        margin-right: 15px;
+    }
+}
